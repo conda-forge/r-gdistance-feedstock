@@ -43,7 +43,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=gdistance
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Calculate distances and routes on geographic grids.
   license_family: GPL3
   license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
