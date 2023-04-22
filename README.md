@@ -1,11 +1,11 @@
-About r-gdistance
-=================
+About r-gdistance-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gdistance-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=gdistance
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gdistance-feedstock/blob/main/LICENSE.txt)
 
 Summary: Calculate distances and routes on geographic grids.
 
