@@ -1,4 +1,4 @@
-{% set version = "1.6.2" %}
+{% set version = "1.6.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gdistance_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gdistance/gdistance_{{ version }}.tar.gz
-  sha256: 9eee160408f1f2d19c4d1be87ccc5d5924fb51dbc4b423e699b4475960d39429
+  sha256: 6af5fd3ea7e256f34d705d4817bb88056037ce1d68adfeb28d61c4a640d8992b
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
