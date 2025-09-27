@@ -1,4 +1,4 @@
-{% set version = "1.6.4" %}
+{% set version = "1.6.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/gdistance_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/gdistance/gdistance_{{ version }}.tar.gz
-  sha256: 6af5fd3ea7e256f34d705d4817bb88056037ce1d68adfeb28d61c4a640d8992b
+  sha256: cac066b941eb128e06156274dcbd5db1167b5867aa66954df8525c335ab07e1d
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
